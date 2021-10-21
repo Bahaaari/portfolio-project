@@ -82,10 +82,12 @@ p {
 }
 
 .content-container h1 {
-  padding-bottom: 50px;
   font-size: 56px;
   line-height: 70px;
   color: var(--font-color);
+}
+.look-works {
+  padding-bottom: 50px;
 }
 
 .content-container h2 {
