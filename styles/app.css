@@ -1,6 +1,7 @@
 :root {
   --primary-color: #f5f5f7;
   --branding-color: #0e75a9;
+  --heading-font-color: #1d1d1f;
   --font-color: #272142;
   --default-font-family: "Poppins", sans-serif;
   --heading-font-family: "Playfair Display", serif;
@@ -10,11 +11,13 @@ h2,
 h3 {
   font-family: var(--default-font-family);
   font-weight: bold;
+  color: var(--heading-font-color);
 }
 
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
+  color: var(--heading-font-color);
 }
 
 p {
@@ -84,7 +87,6 @@ p {
 .content-container h1 {
   font-size: 56px;
   line-height: 70px;
-  color: var(--font-color);
 }
 .look-works {
   padding-bottom: 50px;
@@ -92,11 +94,9 @@ p {
 
 .content-container h2 {
   font-size: 18px;
-  color: var(--font-color);
 }
 .content-container h3 {
   font-size: 24px;
-  color: var(--font-color);
 }
 
 .content-container p {
@@ -109,6 +109,11 @@ p {
 
 .work-space-weather {
   margin-left: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
