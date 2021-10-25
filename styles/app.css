@@ -177,6 +177,15 @@ footer .social-links a:hover {
   background-color: var(--font-color);
 }
 
+footer .footer-description {
+  font-size: 12px;
+}
+
+footer .github-source {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 80px 20px;
